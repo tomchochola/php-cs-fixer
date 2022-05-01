@@ -1,11 +1,11 @@
 {
-  "name": "tomchochola/composer-library",
-  "description": "Composer library",
+  "name": "tomchochola/php-cs-fixer",
+  "description": "PHP CS Fixer",
   "license": "proprietary",
   "type": "library",
   "keywords": [
     "tomchochola",
-    "composer-library"
+    "php-cs-fixer"
   ],
   "authors": [
     {
@@ -14,7 +14,8 @@
     }
   ],
   "require": {
-    "php": "^8.1"
+    "php": "^8.1",
+    "friendsofphp/php-cs-fixer": "^3.8"
   },
   "require-dev": {
     "composer/composer": "^2.0",
@@ -24,12 +25,12 @@
   "prefer-stable": true,
   "autoload": {
     "psr-4": {
-      "Tomchochola\\ComposerLibrary\\": "src/"
+      "Tomchochola\\PhpCsFixer\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Tomchochola\\ComposerLibrary\\Tests\\": "tests/"
+      "Tomchochola\\PhpCsFixer\\Tests\\": "tests/"
     }
   },
   "config": {

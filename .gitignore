@@ -17,3 +17,6 @@ phpunit.xml
 
 # phpstan
 phpstan.neon
+
+# php-cs-fixer
+.php-cs-fixer.cache

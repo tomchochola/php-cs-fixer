@@ -16,18 +16,20 @@ MAKE_COMPOSER ?= ${MAKE_PHP} ${MAKE_COMPOSER_2_BIN}
 check: lint test
 
 .PHONY: lint
-lint: vendor tools
+lint: vendor tools vendor/bin/php-cs-fixer
 	tools/prettier/node_modules/.bin/prettier --ignore-path .gitignore -c . '!**/*.svg'
 	${MAKE_COMPOSER} validate --strict
 	${MAKE_PHP} tools/phpstan/vendor/bin/phpstan analyse
+	${MAKE_PHP} vendor/bin/php-cs-fixer fix --dry-run --diff
 
 .PHONY: test
 test: vendor vendor/bin/phpunit
 	${MAKE_PHP} vendor/bin/phpunit
 
 .PHONY: fix
-fix: tools
+fix: tools vendor/bin/php-cs-fixer
 	tools/prettier/node_modules/.bin/prettier --ignore-path .gitignore -w . '!**/*.svg'
+	${MAKE_PHP} vendor/bin/php-cs-fixer fix
 
 .PHONY: clean
 clean:
@@ -47,7 +49,7 @@ tools: tools/prettier/node_modules/.bin/prettier tools/phpstan/vendor/bin/phpsta
 tools/prettier/node_modules/.bin/prettier:
 	npm --prefix=tools/prettier update
 
-vendor vendor/bin/phpunit:
+vendor vendor/bin/phpunit vendor/bin/php-cs-fixer:
 	${MAKE_COMPOSER} update
 
 tools/phpstan/vendor/bin/phpstan:
