@@ -1,0 +1,11 @@
+includes:
+    - tools/phpstan/vendor/spaze/phpstan-disallowed-calls/disallowed-dangerous-calls.neon
+    - tools/phpstan/vendor/spaze/phpstan-disallowed-calls/disallowed-execution-calls.neon
+    - tools/phpstan/vendor/spaze/phpstan-disallowed-calls/disallowed-insecure-calls.neon
+    - tools/phpstan/vendor/spaze/phpstan-disallowed-calls/disallowed-loose-calls.neon
+
+parameters:
+  level: max
+  paths:
+    - src
+    - tests

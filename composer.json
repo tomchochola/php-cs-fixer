@@ -1,0 +1,38 @@
+{
+  "name": "tomchochola/composer-library",
+  "description": "Composer library",
+  "license": "proprietary",
+  "type": "library",
+  "keywords": [
+    "tomchochola",
+    "composer-library"
+  ],
+  "authors": [
+    {
+      "name": "Tomáš Chochola",
+      "email": "chocholatom1997@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^8.1"
+  },
+  "require-dev": {
+    "composer/composer": "^2.0",
+    "phpunit/phpunit": "^9.5"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "autoload": {
+    "psr-4": {
+      "Tomchochola\\ComposerLibrary\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tomchochola\\ComposerLibrary\\Tests\\": "tests/"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  }
+}
