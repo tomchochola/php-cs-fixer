@@ -23,6 +23,7 @@ class Config
             ->setRules($rules)
             ->setRiskyAllowed(true)
             ->setFinder($finder)
-            ->setUsingCache(false);
+            ->setUsingCache(false)
+            ->setLineEnding(\PHP_EOL);
     }
 }
