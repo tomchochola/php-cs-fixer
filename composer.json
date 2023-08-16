@@ -18,19 +18,13 @@
     "friendsofphp/php-cs-fixer": "^3.8"
   },
   "require-dev": {
-    "composer/composer": "^2.0",
-    "phpunit/phpunit": "^9.5"
+    "composer/composer": "^2.0"
   },
   "minimum-stability": "dev",
   "prefer-stable": true,
   "autoload": {
     "psr-4": {
       "Tomchochola\\PhpCsFixer\\": "src/"
-    }
-  },
-  "autoload-dev": {
-    "psr-4": {
-      "Tomchochola\\PhpCsFixer\\Tests\\": "tests/"
     }
   },
   "config": {

@@ -19,7 +19,8 @@ class Config
     {
         $config = new FixerConfig();
 
-        return $config->setRules($rules)
+        return $config
+            ->setRules($rules)
             ->setRiskyAllowed(true)
             ->setFinder($finder)
             ->setUsingCache(false);
