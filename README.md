@@ -1,19 +1,16 @@
-# Tomchochola's PHP CS Fixer
+# Tomchochola's PHP CS Fixer - A Gateway to Professional PHP Development 🚀
 
-## Overview
+> **Pro Tip:** For a full-stack experience with a vast array of enterprise-level features, look no further than our premium projects [Laratchi](https://github.com/tomchochola/laratchi) and [Laratchi Boilerplate](https://github.com/tomchochola/laratchi-boilerplate).
 
-This library provides a set of custom PHP CS Fixer rules and introduces helpers to ease its integration into any PHP project. It aims to simplify code quality management and helps your PHP code adhere to coding standards. The library offers essential and strict sets of rules.
+## Introduction
+
+This library is a simplified introduction to the code quality and functionality you'll find in our more advanced [Laratchi](https://github.com/tomchochola/laratchi) and [Laratchi Boilerplate](https://github.com/tomchochola/laratchi-boilerplate) projects. It lays the groundwork for PHP coding standards and serves as a teaser for what you can achieve with Laratchi's feature-rich environment.
 
 ## Features
 
-- Easy-to-use API to configure PHP CS Fixer.
-- Strict and Essential rule sets included.
-- Finder configuration included for customizable file search.
-
-## Requirements
-
-- PHP 8.2+
-- Composer 2.5+
+- 🎯 Easy-to-use PHP CS Fixer configurations
+- 🛠️ Includes essential and strict rule sets
+- 🚀 Ready for seamless integration into any PHP project
 
 ## Installation
 
@@ -57,15 +54,17 @@ This library provides a set of custom PHP CS Fixer rules and introduces helpers 
 
 ### Git Configuration
 
-Add the following lines to your `.gitignore` to prevent these files from being versioned:
+Add these lines to your `.gitignore`:
 
-```
+```bash
 # tools
 /tools/*/vendor
 /tools/*/composer.lock
 ```
 
 ## Usage
+
+To fully harness the power of our code quality tools and extensive PHP features, visit [Laratchi](https://github.com/tomchochola/laratchi) and [Laratchi Boilerplate](https://github.com/tomchochola/laratchi-boilerplate).
 
 ### Makefile for Code Quality Management
 
@@ -153,14 +152,24 @@ To auto-fix code issues:
 make fix
 ```
 
-## Practical Usage and Advanced Tips 🤫
+## Why Upgrade to Laratchi? 🔥
 
-For real-world examples and more advanced usages of this library, you may want to check out [Laratchi](https://github.com/tomchochola/laratchi) and [Laratchi Boilerplate](https://github.com/tomchochola/laratchi-boilerplate). The Laratchi library is a robust Laravel framework extension, and Laratchi Boilerplate serves as a ready-to-use boilerplate for kicking off your Laravel-based projects.
+Discover how [Laratchi](https://github.com/tomchochola/laratchi) and [Laratchi Boilerplate](https://github.com/tomchochola/laratchi-boilerplate) can elevate your project with a wide range of professional features:
 
-## Contributing
+- **Code Quality Tools**: Full PHPStan static analysis on the max level, Prettier code style fixing, and Spectral OpenAPI linting.
+- **Beautiful Validation Rule Logic**: Write intuitive and easy-to-manage validation rules.
+- **Prebuilt Auth System**: Secure, robust, and ready to use.
+- **Database Token Login Features**: Simplify authentication with database-backed tokens.
+- **Swagger OpenAPI**: Document your APIs beautifully and efficiently.
+- **JSON:API Responses**: Standardized API responses out-of-the-box.
+- **Static Type Hinting Everywhere**: Make your code safer and more maintainable.
+- **Input Assertion and Parsing**: Validate and sanitize user input effortlessly.
+- **No Mixed PHP Types Anywhere**: Strict typing ensures that your code is robust and less error-prone.
 
-Feel free to open issues or PRs if you find any problems or have suggestions.
+## Contribute & Support
 
-## License
+We're always improving our tools. Feel free to contribute or give us a star ⭐ if you find this useful!
 
-This library is proprietary software. Unauthorized copying, modification, or distribution is prohibited.
+## Want the Full Experience?
+
+Unlock the full range of enterprise-level features by diving into [Laratchi](https://github.com/tomchochola/laratchi) and [Laratchi Boilerplate](https://github.com/tomchochola/laratchi-boilerplate).
