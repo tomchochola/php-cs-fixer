@@ -62,10 +62,6 @@ Add these lines to your `.gitignore`:
 /tools/*/composer.lock
 ```
 
-## Usage
-
-To fully harness the power of our code quality tools and extensive PHP features, visit [Laratchi](https://github.com/tomchochola/laratchi) and [Laratchi Boilerplate](https://github.com/tomchochola/laratchi-boilerplate).
-
 ### Makefile for Code Quality Management
 
 Place the following Makefile in your project root:
@@ -140,6 +136,8 @@ tools/php-cs-fixer/vendor/bin/php-cs-fixer:
 	${MAKE_COMPOSER} --working-dir=tools/php-cs-fixer update
 ```
 
+## Usage
+
 Run the following to check code quality:
 
 ```bash
@@ -151,6 +149,8 @@ To auto-fix code issues:
 ```bash
 make fix
 ```
+
+To fully harness the power of our code quality tools and extensive PHP features, visit [Laratchi](https://github.com/tomchochola/laratchi) and [Laratchi Boilerplate](https://github.com/tomchochola/laratchi-boilerplate).
 
 ## Why Upgrade to Laratchi? 🔥
 
