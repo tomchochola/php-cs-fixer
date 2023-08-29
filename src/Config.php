@@ -13,7 +13,7 @@ class Config
     /**
      * Make config.
      *
-     * @param array<string, bool|array<mixed>> $rules
+     * @param array<string, array<mixed>|bool> $rules
      */
     public static function make(Finder $finder, array $rules): ConfigInterface
     {

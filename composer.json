@@ -1,11 +1,13 @@
 {
   "name": "tomchochola/php-cs-fixer",
-  "description": "PHP CS Fixer",
+  "description": "PHP CS Fixer rules",
   "license": "proprietary",
   "type": "library",
   "keywords": [
     "tomchochola",
-    "php-cs-fixer"
+    "php-cs-fixer",
+    "laratchi",
+    "laravel"
   ],
   "authors": [
     {
@@ -14,13 +16,13 @@
     }
   ],
   "require": {
-    "php": "^8.1",
-    "friendsofphp/php-cs-fixer": "^3.8"
+    "php": "^8.2",
+    "friendsofphp/php-cs-fixer": "^3.23"
   },
   "require-dev": {
-    "composer/composer": "^2.0"
+    "composer/composer": "^2.5"
   },
-  "minimum-stability": "dev",
+  "minimum-stability": "stable",
   "prefer-stable": true,
   "autoload": {
     "psr-4": {
@@ -28,6 +30,8 @@
     }
   },
   "config": {
+    "optimize-autoloader": true,
+    "preferred-install": "dist",
     "sort-packages": true
   }
 }
