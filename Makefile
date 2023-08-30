@@ -63,13 +63,6 @@ update: update-tools update-composer
 .PHONY: clean
 clean: clean-tools clean-composer
 
-# Aliases
-.PHONY: ci
-ci: check
-
-.PHONY: update-full
-update-full: update
-
 # Dependencies
 tools: tools/prettier-lint/node_modules/.bin/prettier tools/prettier-fix/node_modules/.bin/prettier tools/phpstan/vendor/bin/phpstan
 
@@ -80,7 +73,7 @@ tools/prettier-fix/node_modules/.bin/prettier:
 	npm --prefix=tools/prettier-fix update
 
 vendor:
-	${MAKE_COMPOSER} update
+	${MAKE_COMPOSER} install
 
 tools/phpstan/vendor/bin/phpstan:
 	${MAKE_COMPOSER} --working-dir=tools/phpstan update
