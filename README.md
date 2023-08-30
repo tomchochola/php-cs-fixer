@@ -1,4 +1,10 @@
+🍵 **Tchi Signature**: _"Welcome to the Tchi Universe: The Future of Coding, by Tomáš Chochola."_
+
 # Tomchochola's PHP CS Fixer - A Gateway to Professional PHP Development 🚀
+
+[![PHP 8.2](https://img.shields.io/badge/PHP-8.2-blue.svg)](https://www.php.net/)
+[![Laratchi](https://img.shields.io/badge/Laratchi-orange.svg)](https://github.com/tomchochola/laratchi)
+[![License](https://img.shields.io/badge/License-Proprietary-red.svg)](LICENSE.md)
 
 > **Pro Tip:** For a full-stack experience with a vast array of enterprise-level features, look no further than our premium projects [Laratchi](https://github.com/tomchochola/laratchi) and [Laratchi Boilerplate](https://github.com/tomchochola/laratchi-boilerplate).
 
@@ -28,8 +34,8 @@ This library is a simplified introduction to the code quality and functionality 
      },
      "repositories": [
        {
-         "type": "git",
-         "url": "git@github.com:tomchochola/php-cs-fixer.git"
+         "type": "vcs",
+         "url": "https://github.com/tomchochola/php-cs-fixer.git"
        }
      ],
      "minimum-stability": "stable",
@@ -166,10 +172,23 @@ Discover how [Laratchi](https://github.com/tomchochola/laratchi) and [Laratchi B
 - **Input Assertion and Parsing**: Validate and sanitize user input effortlessly.
 - **No Mixed PHP Types Anywhere**: Strict typing ensures that your code is robust and less error-prone.
 
-## Contribute & Support
-
-We're always improving our tools. Feel free to contribute or give us a star ⭐ if you find this useful!
-
 ## Want the Full Experience?
 
 Unlock the full range of enterprise-level features by diving into [Laratchi](https://github.com/tomchochola/laratchi) and [Laratchi Boilerplate](https://github.com/tomchochola/laratchi-boilerplate).
+
+## 💼 Contact
+
+- 👤 [Tomáš Chochola](mailto:chocholatom1997@gmail.com)
+- 📧 [chocholatom1997@gmail.com](mailto:chocholatom1997@gmail.com)
+
+## 🎉 Contributing
+
+Due to the proprietary nature, contributions are not accepted. If you have issues or feature requests, please contact the author.
+
+## ⚖️ License
+
+All rights reserved by Tomáš Chochola. For detailed licensing information, refer to the [License](LICENSE.md) file.
+
+> ⚠️ Disclaimer: Before using, make sure to read the [License](LICENSE.md) and adhere strictly to its terms. Failure to comply will result in license revocation and may attract legal actions.
+
+🔥 **Don't just build applications, build experiences with Tchi.** 🔥
