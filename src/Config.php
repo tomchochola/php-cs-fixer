@@ -24,6 +24,6 @@ class Config
             ->setRiskyAllowed(true)
             ->setFinder($finder)
             ->setUsingCache(false)
-            ->setLineEnding(\PHP_EOL);
+            ->setLineEnding("\n");
     }
 }
