@@ -1,7 +1,7 @@
 {
   "name": "tomchochola/php-cs-fixer",
   "description": "PHP CS Fixer rules",
-  "license": "proprietary",
+  "license": "CC-BY-ND-4.0",
   "type": "library",
   "keywords": [
     "tomchochola",
